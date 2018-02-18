@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">FANHARILARDIAN_1202150022_MODUL2</string>
+    <string-array name="labels_array">
+        <item>Meja</item>
+        <item>Meja 1</item>
+        <item>Meja 2</item>
+        <item>Meja 3</item>
+        <item>Meja 4</item>
+        <item>Meja 5</item>
+        <item>Meja 6</item>
+        <item>Meja 7</item>
+        <item>Meja 8</item>
+        <item>Meja 9</item>
+        <item>Meja 10</item>
+        <item>Meja 11</item>
+        <item>Meja 12</item>
+        <item>Meja 13</item>
+    </string-array>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="date_picker">datePicker</string>
+    <string name="time_picker">timePicker</string>
+    <string name="date">Tanggal  </string>
+    <string name="time">Jam  </string>
+</resources>

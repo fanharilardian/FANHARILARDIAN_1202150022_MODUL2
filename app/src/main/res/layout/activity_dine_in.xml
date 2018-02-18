@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/detailCustomer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="62dp"
+        android:gravity="center"
+        android:text="Detail Customer"
+        android:textSize="30dp" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/linearLayout"
+        android:layout_below="@+id/detailCustomer"
+        android:layout_marginTop="51dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:selectAllOnFocus="false"
+        android:singleLine="false"
+        android:textColorHint="@color/LightGrey" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/detailCustomer"
+        android:layout_alignEnd="@+id/detailCustomer"
+        android:layout_below="@+id/name"
+        android:id="@+id/linearLayout">
+
+
+        <TextView
+            android:id="@+id/nomorMeja"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/name"
+            android:layout_below="@+id/name"
+            android:text="No. Meja: " />
+
+        <Spinner
+            android:id="@+id/pilihMejaSpinner"
+            android:layout_width="163dp"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/name"
+            android:layout_toRightOf="@+id/nomorMeja"
+            android:entries="@array/labels_array">
+
+        </Spinner>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/tombolPilihPesanan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linearLayout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:onClick="pilihPesanan"
+        android:text="Pilih Pesanan"
+        android:textStyle="bold" />
+
+</RelativeLayout>
